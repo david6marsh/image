@@ -1,5 +1,7 @@
 # image -  Computer Vision and Image Recognition algorithms for R users 
 
+I've forked this in order to adapt darknet with a very minor tweak that outputs the coordinates of the objects detected. I'm using the advice from [Brian O'Donnell on stack exchange](https://stackoverflow.com/questions/44544471/how-to-get-the-coordinates-of-the-bounding-box-in-yolo-object-detection).
+
 This repository contains a suite of R packages which perform image algorithms currently not available in other R packages like [magick](https://CRAN.R-project.org/package=magick), [imager](https://CRAN.R-project.org/package=imager) or [EBImage](https://bioconductor.org/packages/release/bioc/html/EBImage.html). 
 
 These algorithms are put into different packages because of license differences. Currently the following R packages are available:
